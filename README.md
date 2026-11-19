@@ -213,11 +213,4 @@ UPDATE users SET role = 'Admin' WHERE email = 'admin@test.com';
 
 ---
 
-## Limitations and future work
 
-- Password reset by email (FR11) and deleting accounts (FR13) are not implemented.
-- The administrator cannot override matches (part of FR10).
-- Notifications are shown inside the application only (no email or SMS).
-- Chat messages are loaded with the **Refresh** button and the screen does not update by itself.
-- The green and black theme is applied to the main screens, and some secondary screens still use the default colours.
-- The connection string is in the source code (acceptable for a local lab, but a real deployment should use a configuration file).
